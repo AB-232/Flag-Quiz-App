@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold|italic"
+            android:id="@+id/textViewQuestionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="Guess the country from its flag"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/image_border_bg"
+            android:padding="3dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_flag"
+            android:id="@+id/flagPhoto"
+            android:contentDescription="Image flag"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="10">
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_weight="8"
+                android:minHeight="50dp"
+                android:minWidth="50dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTracker"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="10/10"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:background="@drawable/default_button_bg"
+            android:text="@string/option1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/answerOne"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:background="@drawable/default_button_bg"
+            android:text="@string/option2"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/answerTwo"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:background="@drawable/default_button_bg"
+            android:text="@string/option3"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/answerThree"/>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:background="@drawable/default_button_bg"
+            android:text="@string/option4"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/answerFour"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check"
+                android:id="@+id/checkButton"
+                android:minHeight="50dp"
+                android:backgroundTint="@android:color/holo_blue_bright"/>
+
+
+            <Button
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:id="@+id/nextButton"
+                android:minHeight="50dp"
+                android:backgroundTint="@android:color/holo_blue_bright"/>
+
+
+
+
+            <Button
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/finish"
+                android:id="@+id/finishButton"
+                android:minHeight="50dp"
+                android:backgroundTint="@android:color/holo_blue_bright"/>
+
+
+
+
+        </FrameLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

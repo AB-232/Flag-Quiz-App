@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Flag Quiz</string>
+    <string name="please_enter_your_name">Please Enter your name</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Name</string>
+    <string name="start">Start</string>
+    <string name="option1">Option1</string>
+    <string name="option2">Option2</string>
+    <string name="option3">Option3</string>
+    <string name="option4">Option4</string>
+    <string name="check">Check</string>
+    <string name="next">Next</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="result">Result</string>
+    <string name="finish">Finish</string>
+    <string name="quiz_app">Quiz App</string>
+</resources>
