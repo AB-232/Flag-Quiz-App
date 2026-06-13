@@ -29,7 +29,7 @@ A simple Android quiz application built with Kotlin and XML.
 
 ## 📥 Download APK
 
-🚀 **[Click Here to Download Flag Quiz APK](apk/Flag_Quiz.apk)**
+🚀 **[Click Here to Download Flag Quiz APK](apk/Flag_Quiz.apk?raw=true)**
 
 ## 🎮 App Flow
 
