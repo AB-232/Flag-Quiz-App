@@ -9,7 +9,6 @@ A simple Android quiz application built with Kotlin and XML.
 * Questions are not repeated during the same quiz session.
 * Change your selected answer before pressing **Check**.
 * After pressing **Check**, the app validates your answer and displays:
-
   * 🟢 Correct answer in green.
   * 🔴 Wrong answer in red.
 * Track your progress during the quiz.
@@ -24,32 +23,13 @@ A simple Android quiz application built with Kotlin and XML.
 
 ## 📸 Screenshots
 
-### Main Screen
-
-![Main Screen](screenshots/Main.jpeg)
-
-### Selected Answer
-
-![Selected Answer](screenshots/Selected_answer.jpeg)
-
-### Correct Answer
-
-![Correct Answer](screenshots/Right_answer.jpeg)
-
-### Wrong Answer
-
-![Wrong Answer](screenshots/Wrong_answer.jpeg)
-
-### Result Screen
-
-![Result Screen](screenshots/Result.jpeg)
-
+| Main Screen | Selected Answer | Correct Answer | Wrong Answer | Result Screen |
+| :-: | :-: | :-: | :-: | :-: |
+| <img src="screenshots/Main.jpeg" width="160"> | <img src="screenshots/Selected_answer.jpeg" width="160"> | <img src="screenshots/Right_answer.jpeg" width="160"> | <img src="screenshots/Wrong_answer.jpeg" width="160"> | <img src="screenshots/Result.jpeg" width="160"> |
 
 ## 📥 Download APK
 
-[Download APK](apk/QuizApp.apk)
-
-
+🚀 **[Click Here to Download Flag Quiz APK](apk/Flag_Quiz.apk)**
 
 ## 🎮 App Flow
 
