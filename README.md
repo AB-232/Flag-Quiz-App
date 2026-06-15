@@ -1,19 +1,18 @@
-# 🎯 Quiz App
+# 🌍 Flag Quiz App
 
-A simple Android quiz application built with Kotlin and XML.
+A simple and interactive Android quiz application built with Kotlin and XML to test your knowledge of world flags.
 
 ## 📱 Features
 
-* Enter your name before starting the quiz.
-* Answer 10 random questions selected from a question bank.
-* Questions are not repeated during the same quiz session.
-* Change your selected answer before pressing **Check**.
-* After pressing **Check**, the app validates your answer and displays:
-  * 🟢 Correct answer in green.
-  * 🔴 Wrong answer in red.
-* Track your progress during the quiz.
-* View your final score on the result screen.
-* Restart the quiz and play again.
+* **Massive Flag Database:** Test yourself with **189 different country flags** instead of just a few basic ones.
+* **Smart Randomizer:** Answer 10 random questions selected from the flag bank—questions are **never repeated** during the same session.
+* **Full Arabic RTL Support:** Perfectly optimized Arabic user interface with correct layout direction and alignment (No mirroring issues).
+* **Interactive Gameplay:** 
+  * Enter your name before starting the quiz.
+  * Change your selected answer before pressing **Check**.
+  * Dynamic feedback: Validates your answer with 🟢 *Correct answer in green* or 🔴 *Wrong answer in red*.
+* **Progress Tracking:** Track your current question number and score in real-time.
+* **Result Screen:** View your final score and performance, with an option to restart and play again.
 
 ## 🛠 Technologies Used
 
@@ -24,8 +23,9 @@ A simple Android quiz application built with Kotlin and XML.
 ## 📸 Screenshots
 
 | Main Screen | Selected Answer | Correct Answer | Wrong Answer | Result Screen |
-| :-: | :-: | :-: | :-: | :-: |
-| <img src="screenshots/Main.jpeg" width="160"> | <img src="screenshots/Selected_answer.jpeg" width="160"> | <img src="screenshots/Right_answer.jpeg" width="160"> | <img src="screenshots/Wrong_answer.jpeg" width="160"> | <img src="screenshots/Result.jpeg" width="160"> |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="screenshots/Main.jpeg" width="140"> | <img src="screenshots/Selected_answer.jpeg" width="140"> | <img src="screenshots/Right_answer.jpeg" width="140"> | <img src="screenshots/Wrong_answer.jpeg" width="140"> | <img src="screenshots/Result.jpeg" width="140"> |
+
 
 ## 📥 Download APK
 
@@ -42,4 +42,4 @@ A simple Android quiz application built with Kotlin and XML.
 
 ## 👨‍💻 Developer
 
-Abdelrhman Yasser
+**Abdelrhman Yasser**
